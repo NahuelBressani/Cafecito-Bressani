@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*------Bloques------*/
+
+.bloque{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.bloque-header{
+    background-image: url(./img/fondo-header.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.centrar{
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    border: 0px solid red;
+    margin: auto;
+    text-align: center;
+    padding: 40px 0px; 
+}
+
+.logo{
+    color: #c1c1c1;
+    margin-top: 10px;
+    width: 30%;
+    float: left;
+    text-align: left;
+}
+
+/*------Menu------*/
+
+.menu-principal{
+    width: 47%;
+    float: right;
+    border: 0px solid #fff;
+    background: rgba(0,0,0,0.5);
+    border-radius: 7px;
+}
+
+.menu-principal ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px 20px;
+}
+
+.menu-principal ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.izquierda, .derecha{
+    width: 45%;
+    height: auto; overflow: hidden;
+    border: 0px solid #fff;
+    display: inline-block;
+}
+
+.izquierda{
+    float: left;
+    text-align: left;
+}
+
+.subtitulo{
+    color: #c1c1c1;
+}
+
+.titulo-principal{
+    color: #fff;
+    font-size: 60px;
+}
+
+.derecha{
+    float: right;
+    margin: auto;
+}
+
+.img-pres{
+    width: 80%;
+}
+
+.descripcion{
+    color: #c1c1c1;
+    font-weight: 300;
+    text-align: left;
+}
+
+/*------Boton------*/
+
+.boton{
+    padding: 17px 35px;
+    background-color: #b83131;
+    color: #fff;
+    border-radius: 7px;
+    border: 0px;
+}
+
+/*------Mas bloques------*/
+
+.bloque-elegir{
+    padding: 50px 0px;
+    background: rgb(141,0,255);
+    background: radial-gradient(circle, rgba(141,0,255,1) 0%, rgba(0,0,0,1) 83%);
+}
+
+.bloque-elegir .derecha{
+    text-align: left;
+}
+
+.img-press{
+    width: 90%;
+}
+
+.bloque-elegir .derecha .texto-naranja{
+    color: #f94f2b;
+}
+
+.bloque-elegir .derecha .h1{
+    color: #424141;
+    font-size: 35px;
+}
+
+.bloque-elegir .derecha p{
+    color: #000000;
+    font-weight: 300;
+}
+
+.opciones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.opcion{
+    width: 45%;
+    border: solid 1px #c1c1c1;
+    margin-bottom: 30px;
+    padding: 7px;
+    border-left: 4px solid #df3a01;
+    border-radius: 7px;
+}
+
+.opcion :hover{
+    color: #df3a01;
+}
+
+.opcion .img-opciones{
+    width: 20%;
+    float: left;
+    margin-right: 3px;
+}
+
+/*------Notificaciones------*/
+
+.notificaciones{
+    width: auto;
+    overflow: hidden;
+    background-image: url(img/fondofondo.jpg);
+    padding: 80px 0px;
+    color: #fff;
+}
+
+.form-notificaciones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.notificaciones h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.entrada-not{
+    width: 40%;
+    padding: 15px;
+    border-radius: 7px;
+    border: 0px;
+}
+
+.boton-not{
+    padding: 17px 35px;
+    background: #b83131;
+    color: #fff;
+    border-radius: 7px;
+    border: 0px;
+}
+
+.boton-not :hover{
+    background: #f94f2b;
+}
+
+.servicios{
+    padding: 50px 0px;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+
+.servicios .centrar h1{
+    color: #424141;
+    font-size: 35px;
+}
+
+.servicios .centrar .texto-naranja{
+    color: #f94f2b;
+}
+
+.centrar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: -50px;
+}
+
+.centrar .contenidos{
+    width: 45%;
+    height: 150px;
+    position: relative;
+    padding: 20px;
+    border: 1px solid #9499c2;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgb(105, 97, 182);
+    border-radius: 7px;
+    margin-bottom: 30px;
+}
+
+.img-servicios{
+    width: 30%;
+    float: left;
+    margin-right: 10px;
+}
+
+.parrafo{
+    color: #7d7a7a;
+    line-height: 25px;
+}
+
+.footer{
+    height: 260px;
+    width: 100%;
+    padding: 40px 0px;
+    background-color: #000;
+}
+
+.footer .centrar .izquierda{
+    color: #7d7a7a;
+}
+
+.footer .centrar .izquierda h4,p{
+    text-align: center;
+}
+
+.footer .centrar .izquierda p{
+    border-top: 1px solid #fff;
+}
+
+.entrada-form{
+    width: 90%;
+    padding: 5px 5px;
+    margin-bottom: 10px;
+}
+
+.boton-contact{
+    padding: 7px 12px;
+}
